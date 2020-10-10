@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Assignment 4 for Sunil Sunichura</title>
+		<link rel="stylesheet" href="_css/styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<form action="thank-you.html" method="get">
+		<div class="wrapper">
+			<div class="box" id="header">
+				<header>
+					<h1 class="display-3">Assignment 4</h1>
+					<h1 class="display-3">Sunil Sunichura</h1>
+					<h1 class="display-3">Instructor: Gursharan Singh Tatla</h1>
+				</header>
+			</div>
+			
+			<div class="box" id="fname">
+			<label>First Name: <input type="text" name="firstname" autocomplete="on" autofocus></label><br><br>
+			</div>
+	
+			<div class="box" id="lname">
+			<label> Last Name: <input type="text" name="lastname" autocomplete="on"></label><br><br>
+			</div>
+	
+			<div class="box" id="gender">
+				<label><input type="radio" name="gender" value="Female"> Female </label>
+			<label><input type="radio" name="gender" value="Male"> Male </label>
+			<br><br><br>
+			</div>
+			
+			<div class="box" id="email">
+			E-Mail  <input type="email" name="email" autocomplete="on">
+			<br><br>
+			</div> 
+			
+			<div class="box" id="visit">
+			Where would you like to visit?
+			<input type="checkbox" name="us" value="US">U.S
+			<input type="checkbox" name="brazil" value="Brazil">Brazil
+			<input type="checkbox" name="japan" value="Japan">Japan 
+			<br><br>
+			</div> 
+	
+			<div class="box" id="campus">
+			What campus are you located on? <select name="campus">
+			<option value="-1">Please select</option>
+			<option name="campus"> Davis </option>
+			<option name="campus">Trafalgar </option>
+			<option name="campus">HMC </option>
+			</select><br><br>
+			</div>
+	
+			<div class="box" id="food">
+			What is your favourite food? <br><br>
+				<fieldset>
+					<legend>Please select your most favourite:</legend>
+					<input type="radio" name="food" value="French Fries"> French Fries <br>
+					<input type="radio" name="food" value="Pizza"> Pizza <br>
+					<input type="radio" name="food" value="Tofu"> Tofu <br>
+				</fieldset> <br><br>
+			</div> 
+	
+			<div class="box" id="about">
+			Tell us more about yourself: <textarea name="comment" cols="40" rows="4"></textarea>
+			<br><br>
+			</div>
+		
+			<div class="box" id="submit">	
+			<label> Submit Data <input type="submit" name="submit" class="btn btn-warning"></label>
+			<br><br>
+			</div>
+	
+			<div class="box" id="reset1">	
+			<label> Reset Form <input type="reset" name="reset" class="btn btn-dark"></label>
+			<br><br>
+			</div>
+	
+			</form> 
+		</div>
+	</body>
+</html>

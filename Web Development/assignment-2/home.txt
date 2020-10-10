@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 2 for Sunil Sunichura</title>
+		<link rel="stylesheet" href="_css/styles.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Sagrada Familia</h1>
+			</header>
+			
+			<nav>
+				<ul>
+					<li><a id="selected" href="index.html">Home</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Tours</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+			
+			<aside>
+				<h3>Additional Information</h3>
+				<ul>
+					<li><a href="https://sagradafamilia.org/en/tickets">Tickets</a></li>
+					<li><a href="https://sagradafamilia.org/en/virtual-tour">Virtual Tour</a></li>
+					<li><a href="https://sagradafamilia.org/en/news">News</a></li>
+				</ul>
+			</aside>
+			
+			<section id="content">
+				<h2>HISTORY OF THE BASÍLICA</h2>
+				<p>The Sagrada Família is a one-of-a-kind temple, for its origins, foundation and purpose. Fruit of the work of genius architect Antoni Gaudí, the project was promoted by the people for the people. Five generations now have watched the Temple progress in Barcelona. Today, more than 135 years after the laying of the cornerstone, construction continues on the Basilica and is expected to be completed in 2026.</p>
+
+			</section>
+			
+			<footer>
+				<div id="altnav">
+					<a href="index.html">Home</a> - 
+					<a href="#">History</a> - 
+					<a href="#">Tours</a> - 
+					<a href="contact.html">Contact</a>
+				</div>
+							
+				Copyright &copy; Sunil Sunichura<br>
+				Visit the Official Site of Sagrada Familia: <a href="https://sagradafamilia.org/en/home" target="_blank">www.sagradafamilia.org/en/home</a>	
+			</footer>
+		</div>
+	</body>
+</html>

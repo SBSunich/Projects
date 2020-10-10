@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+Sunil Sunichura
+Student ID: 991 578 383
+SYST10199 - Web Programming
+-->
+<html>
+    <head>
+        <title>Sunil Sunichura</title>
+        <link rel="stylesheet" href="_css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <hr>
+        <h1 id="hh1" align="center">Assignment 2</h1>
+        <h1 id="hh2" align="center">WEB PROGRAMMING</h1>
+        <h1 id="hh3" align="center">Sunil Sunichura</h1>
+        <hr>
+
+        Enter a number: <input type="text" id="num" autofocus>
+        <br>
+        <br>
+        <button id="b1">Celsius to Fahrenheit</button>
+        <p id="p1"></p>
+        <button id="b2">Fahrenheit to Celsius</button>
+        <p id="p2"></p>
+        <button id="b3">Feet to Meters</button>
+        <p id="p3"></p>
+        <button id="b4">Meters to Feet</button>
+        <p id="p4"></p>
+        <button id="b5">Inches to Centimeters</button>
+        <p id="p5"></p>
+        <button id="b6">Centimeters to Inches</button>
+        <p id="p6"></p>
+        <button id="b7">Pounds to Kilograms</button>
+        <p id="p7"></p>
+        <button id="b8">Kilograms to Pounds</button>
+        <p id="p8"></p>
+        <button id="b9">Clear</button>
+
+        <script src="_Jscripts/script.js">
+
+        </script>
+
+    </body>
+</html>

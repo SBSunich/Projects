@@ -1,0 +1,113 @@
+/*Sunil Sunichura 991578383 */
+#header { grid-area: header;}
+
+#main1 { grid-area: main1;}
+
+#main1actors { gird-area: main1actors;}
+
+#main2 { grid-area: main2;}
+
+#main2actors { grid-area: main2actors;}
+
+#footer1 { grid-area: footer1;}
+
+#footer2 { grid-area: footer2;}
+
+.wrapper
+{
+	display: grid;	
+	grid-template-areas:
+		'header header'
+		'main1 main2'
+		'main1actors main2actors'
+		'footer1 footer2';
+	grid-template-columns: auto auto;
+}
+
+body::after {
+  content: "";
+  background: url("../_images/background-image.jpg") repeat;
+  opacity: 0.5;
+ 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  position: fixed;
+  z-index: -1;  
+}
+
+.box
+{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 65px;
+	border-radius: 10px;
+	color: black;
+}
+
+#header
+{
+	background-color: white;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	padding: 50px 10px;
+	opacity: 0.75;
+}
+
+.movie
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#main1
+{
+	display: grid;
+}
+
+#main1actors
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5px;
+	padding: 5px;
+}
+
+#main2
+{
+	display: grid;
+}
+
+#main2actors
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5px;
+	padding: 5px;
+}
+
+.descript
+{
+	font-size: 20px;
+}
+
+#footer1
+{
+	text-shadow: none;
+	height: 50px;
+	background-color: black; 
+	font-size: 20px;
+	grid-gap: 0px;
+}
+
+#footer2
+{
+	text-shadow: none;
+	height: 50px;
+	background-color: black; 
+	font-size: 20px;
+	grid-gap: 0px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Sunil Sunichura
+Student ID: 991 578 383
+SYST10199 - Web Programming
+-->
+<html>
+    <head>
+        <title>Assignment 1 for Sunil Sunichura</title>
+        <link rel="stylesheet" href="_css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <hr>
+        <h1 align="center">Assignment 1</h1>
+        <h1 align="center">Web Programming</h1>
+        <h1 align="center">Sunil Sunichura</h1>
+        <hr>
+
+        <p>
+            This is a game of Rock, Paper, Scissors.
+            <br><br>Rock breaks Scissors.
+            <br><br>Paper covers Rock.
+            <br><br>Scissors cuts Paper.
+            <br><br>
+            <img src="_images/rock-paper-scissors.jpg">
+        </p>
+
+        <input type="button" value="Play Game" 
+               onclick="window.location.href = 'rock.html'">
+    </body>
+</html>

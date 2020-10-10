@@ -1,0 +1,171 @@
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	background-color:#FFFFFF;
+	
+}
+
+#wrapper
+{
+	width: 760px;
+	margin: auto;
+	border-style: solid;
+}
+
+nav 
+{
+	height: 55px;
+	text-align: left;
+	margin: 0px 0px 0px 11px;
+}
+
+nav ul 
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+nav ul li 
+{
+	display: inline-block;
+}
+
+nav a 
+{
+	padding: 20px 16.5px;
+	background-color: red;
+	color: white; /*text color*/
+	display: inline; /* makes padding visible*/
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	background-color: black;
+	text-decoration: none;
+}
+
+nav a:active
+{
+	background-color: darkred;
+	box-shadow: none;
+}
+
+#selected
+{
+	background-color: black;
+	box-shadow: none;
+	text-decoration: none;
+	cursor: default;
+	
+}
+
+header 
+{
+	height: 427px;
+	background-image:url('../_images/la-sagrada-familia.jpg');
+}
+
+h1
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-top: 57px;
+	margin-right: 31px;
+	text-shadow: 2px 2px #FFFFFF;
+	text-shadow: 2px 2px black;
+	color: #FF0000;
+}
+
+aside
+{
+	float: right;
+	width: 280px;
+	padding: 25px;
+	line-height: 18px;
+	border-style: dotted;
+}
+
+aside h3 
+{
+	font-family: "Trebuchet MS", sans-serif;
+	color: black;
+	text-shadow: 0.5px 0.5px #FF0000;
+}
+
+aside a
+{
+	text-decoration: none;
+	color: #696969;
+}
+
+aside a:hover
+{
+		color: red;
+}
+
+#content
+{
+	width: 400px;
+	padding: 25px;
+	line-height: 18px;
+}
+
+#content h2, p
+{
+	margin: 0px;
+	padding: 5px;
+	padding-bottom: 15px;
+}
+
+#content h2 
+{
+	font-family: "Trebuchet MS", sans-serif;
+	color: black;
+	text-shadow: 0.5px 0.5px #FF0000;
+}
+
+#content a
+{
+	text-decoration: underline;
+	color: #696969;
+}
+
+#content a:hover
+{
+	color: red;
+}
+
+footer 
+{
+	height: 66px;
+	clear: both;
+	font-family: Tacoma, Arial, sans-serif;
+	font-size: 10px;
+	color: #696969;
+	padding: 10px 25px;
+	line-height: 18px;
+}
+
+footer a 
+{
+	color: #696969;
+	text-decoration: underline;
+}
+
+footer a:hover
+{
+	color: red;
+}
+
+#altnav
+{
+	text-align: right;
+}
+

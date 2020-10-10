@@ -1,0 +1,66 @@
+/* CSS Document */
+#header { grid-area: header;}
+
+#fname { grid-area: fname;}
+
+#lname { grid-area: lname;}
+
+#gender { grid-area: gender;}
+
+#campus { grid-area: campus;}
+
+#food { grid-area: food;}
+
+#visit { grid-area: visit;}
+
+#about { grid-area: about;}
+
+#email { grid-area: email;}
+
+#submit { grid-area: submit;}
+
+#reset1 { grid-area: reset1;}
+
+.wrapper
+{
+	display: grid;
+	grid-template-areas: 
+		'header header'
+		'fname lname'
+		'gender campus'
+		'food auto'
+		'visit visit'
+		'about about'
+		'email email'
+		'submit reset1';
+	grid-template-columns: auto auto;
+}
+
+.box
+{
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 15px;
+}
+
+#header
+{
+	text-align: center;
+}
+
+body
+{
+	background: radial-gradient(red, purple, black);
+}
+
+#submit
+{
+	display: flex;
+	justify-content: center;
+}
+
+#reset1
+{
+	display: flex;
+	justify-content: center;
+}

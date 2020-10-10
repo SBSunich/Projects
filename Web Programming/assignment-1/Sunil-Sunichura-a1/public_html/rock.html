@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Sunil Sunichura
+Student ID: 991 578 383
+SYST10199 - Web Programming
+-->
+<html>
+    <head>
+        <title>Assignment 1 for Sunil Sunichura</title>
+        <link rel="stylesheet" href="_css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <h2>Thank you for playing!!</h2>
+
+        <script>
+            var a = [];
+            var userScore = 0;
+            var compScore = 0;
+            do {
+                var input = prompt("Press 1 for ROCK \nPress 2 for PAPER \nPress 3 for SCISSORS");
+                a[1] = "ROCK";
+                a[2] = "PAPER";
+                a[3] = "SCISSORS";
+                var user = a[input];
+
+                while (typeof user === "undefined") {
+                    input = prompt("Press 1 for ROCK \nPress 2 for PAPER \nPress 3 for SCISSORS");
+                    user = a[input];
+                }
+
+                var num = Math.floor(Math.random() * 3 + 1);
+                var comp = a[num];
+                alert("Computer has chosen: " + comp);
+                if (user == a[1] && comp == a[3]) {
+                    userScore++;
+                    alert("You picked " + user + ". Computer picked "
+                            + comp + ". \nYou win. \nYou: " + userScore + "\nComputer: " + compScore);
+                } else if (user == a[2] && comp == a[1]) {
+                    userScore++;
+                    alert("You picked " + user + ". Computer picked "
+                            + comp + ". \nYou win. \nYou: " + userScore + "\nComputer: " + compScore);
+                } else if (user == a[3] && comp == a[2]) {
+                    userScore++;
+                    alert("You picked " + user + ". Computer picked "
+                            + comp + ". \nYou win. \nYou: " + userScore + "\nComputer: " + compScore);
+                } else if (user == comp) {
+                    userScore += 0;
+                    compScore += 0;
+                    alert("You picked " + user + ". Computer picked "
+                            + comp + ". \nIt's a tie. \nYou: " + userScore + "\nComputer: " + compScore);
+                } else {
+                    compScore++;
+                    alert("You picked " + user + ". Computer picked "
+                            + comp + ". \nComputer wins. \nYou: " + userScore + "\nComputer: " + compScore);
+                }
+
+                var next = confirm("Do you want to play again?");
+            } while (next == true);
+            if (userScore > compScore) {
+                alert("Final Score: \nYou: " + userScore +
+                        "\nComputer: " + compScore + "\nYou Win!!");
+            } else if (userScore == compScore) {
+                alert("Final Score: \nYou: " + userScore +
+                        "\nComputer: " + compScore +
+                        "\nTie Game");
+            } else {
+                alert("Final Score: \nYou: " + userScore +
+                        "\nComputer: " + compScore +
+                        "\nComputer Wins");
+            }
+        </script>
+
+        <input type="button" value="Exit Game" 
+               onclick="window.location.href = 'index.html'">
+    </body>
+</html>

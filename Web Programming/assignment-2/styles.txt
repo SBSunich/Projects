@@ -1,0 +1,18 @@
+/*
+Sunil Sunichura
+Student ID: 991 578 383
+SYST10199 - Web Programming
+*/
+/* 
+    Created on : Feb. 5, 2020, 5:47:57 p.m.
+    Author     : sunil
+*/
+
+body{
+    background:#cfcec4;
+}
+
+button{
+    background: #000000;
+    color: white;
+}
