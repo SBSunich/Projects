@@ -1,0 +1,68 @@
+/*
+Sunil Sunichura
+Student ID: 991 578 383
+SYST10199 - Web Programming
+*/
+/* 
+    Created on : Mar. 19, 2020, 9:37:37 p.m.
+    Author     : sunil
+*/
+
+body
+{
+    align-content: center;
+    background-color: white;
+}
+
+form
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    color: green;
+    text-align: center;
+}
+
+form
+{
+    text-align: center;
+}
+
+label
+{
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+}
+
+input
+{
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+}
+
+select
+{
+    display: inline-block;
+    float: left;
+}
+
+h2
+{
+    color: green;
+    text-align: center;
+}
