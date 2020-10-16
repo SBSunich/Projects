@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+h1 {
+	color: #3CBC8D;
+	text-align: center;
+	text-shadow: 0 0 3px white;
+}
+
+table {
+	border: 3px solid #3CBC8D;
+	border-collapse: collapse;
+	background-color: #c5d3f0;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border: 3px solid #3CBC8D;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #3CBC8D;
+	border-collapse: collapse;
+}
+
+form {
+	text-align: center;
+	color: white;
+	background-color: #3CBC8D;
+	text-shadow: 0 0 1px #fc8803;
+	border: 1px solid #faf2f2;
+}
+
+input, textarea {
+	background-color: #c5d3f0;
+}
+
+body {
+	background-color: #ccd9cf;
+}

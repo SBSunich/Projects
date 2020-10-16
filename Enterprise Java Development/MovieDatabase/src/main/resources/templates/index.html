@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeLeaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+		<link rel="stylesheet" href="styles.css">
+<body>
+
+<h1>Reptar's Movie Dungeon</h1>
+
+<table class="center" th:if="${movieList != null and movieList != ''}">
+	<tr>
+		<th>Movie Name</th>
+		<th>Streaming Service</th>
+		<th>Review</th>
+		<th>Review Date and Time</th>
+	</tr>
+
+	<tr th:each="m:${movieList}">
+		<td th:text="${m.movieName}"></td>
+		<td th:text="${m.streaming}"></td>
+		<td th:text="${m.review}"></td>
+		<td th:text="${m.reviewDateTime}"></td>
+</table>
+
+<br><br><br>
+
+<form method="post" action="" th:action="@{/insertMovie}" th:object="${movie}">
+	<input type="hidden" name="id" th:field="*{id}"/>
+	Movie Name:<input type="text" name="movieName" th:field="*{movieName}"/><br>
+	Streaming Service:<input type="text" name="streaming" th:field="*{streaming}"/><br>
+	<input type="hidden" name="reviewDateTime" th:field="*{reviewDateTime}"/>
+	<textarea rows="5" cols="50" placeholder="Please write review here" name="review" th:field="*{review}"></textarea><br>
+	<input style="color:#fc8803; background-color: white" type="submit" value="Add Review"/>
+</form>
+
+</body>
+</html>
